@@ -1,0 +1,158 @@
+<html>
+<head>
+    <title>iCarly.Com</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/icarly.css">
+    
+
+    <link rel="stylesheet" media="screen and (min-width: 600px)">
+<link rel="stylesheet" media="screen and (max-width: 600px)">
+</head>
+
+<script>
+
+    function move() {
+      var elem = document.getElementById("myBar");   
+      var width = 10;
+      var id = setInterval(frame, 10);
+      function frame() {
+        if (width >= 75) {
+          clearInterval(id);
+        } else {
+          width++; 
+          elem.style.width = width + '%'; 
+          elem.innerHTML = width * 1  + '%';
+        }
+      }
+    }
+    </script>
+<body>
+
+   <div class="icarly-logo">
+            <img src="https://logodix.com/logo/1796172.png" width="400">
+        </div>
+
+            <img class="photo-two"src="https://static.tumblr.com/f6jarsl/REWlxi1h5/icarly.png">
+ <header>
+<div class="date-video"> 
+    <p id="dateTime"></p>
+
+        <div class="search-contain">
+        <label class="nav-search" for="nav-search">search our site
+        </label>
+        <br/>
+            <input type="text" id="nav-search" name="nav-search" placeholder="search"> <i class="icon fas fa-search"></i>   
+        <a class="login" href="login.html">login
+        <i class="fas fa-long-arrow-alt-right"></i></a>
+    </div>
+    
+</div>
+<p class="tagline">"HOBO SNOT"</p>
+ 
+
+   <nav>
+        <a href="icarly.html">iBLOGS</a>
+        <a href="test.html">iSNAPS</a>
+        <a href="#">iNEWS</a>
+        <a href="#">iVIDEO</a>
+        <a href="#">iPLAY</a>
+        <a href="#">iSONGS</a>
+        <a href="#">iNEED <br/>HELP</a>
+        <a  href="videoUpload.html">SEND <br/>US STUFF</a>
+    </nav>
+
+</header>
+<section id="content">
+ <p class="extra">iCarly <span>Extras</span></p>
+<p class="vid-words"><i class="fas fa-envelope"></i> send this video to a friend <i class="fas fa-arrow-down"></i>
+        </p>
+           
+    <div class="vid-content">
+        <iframe class="icarly-vid" width="400" height="300" src="https://www.youtube.com/embed/-eD6X-5JWgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="under-logo">
+            <img src="https://static.wikia.nocookie.net/nickelodeon/images/f/fd/ICarly-Logo.png/revision/latest?cb=20141009230905" width="90" height="45">
+        </div>
+           <div class="blue-side">
+            <a href="https://youtu.be/X2rqtpYKUHk">
+            <img src="https://i.pinimg.com/736x/63/41/ae/6341aedd36b6344e9bc3bcc6939b48f0--movie-quotes-my-daughter.jpg" height="70" width="85" style="border: 1px solid white"/>
+           </a>
+
+                <div>
+                <p>Baby Spencer Eats Pea Mush</p>
+                <p> Lil' Baby Spencer Shows off his Baby Spencer dance and then we stuff his mouth full of pea mush!
+            </div>
+        <hr class="seperator"> </hr>
+
+        <a href="https://youtu.be/ankcc4OQ8BU">
+            <img src="https://i.insider.com/5c9a4ef492c8863fbc193d84?width=1000&format=jpeg&auto=webp" height="70" width="85" style="border: 1px solid white">
+        </a>
+            <div>
+                <p>We are in love!</p>
+                <p> ...with the new song and video from victorious! Watch it all and tell us if u love</p>
+            </div>
+            <div class="see-more">
+                <a href="videoRepo.html">see more videos
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+            <div class="upload">
+                <a href="videoUpload.html">  upload video <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+              
+             <div class="vl">
+                <img src="images/icarly-arrow.png" height="250" width="250">
+
+                <img src="images/cool-webcast.png" width=" 375" height="380">
+             </div>
+          
+             
+        </div> 
+    </div>
+        <div class="website-extras">
+            <img class="car-img" src="images/icarly-car.png">
+
+        <section id="rating">
+        <span class="heading">Like this video?</span> <br/>
+        <div class="rating-stars">
+            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+            </div>
+
+        <div class="slidecontainer">
+        <input type="range" min="1" max="5" value="3">
+    </div>
+ 
+
+    </section>
+
+    <div id="spencer-extra">
+        <img class="vote" src="images/vote.png" alt="vote" />
+
+        <img src="images/spencer.png" alt="spencer" height="90"/>
+
+        <a class="click-here" href="#">Click right <br/> HERE...</a>
+
+    </div>
+    
+   
+    
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<script src="js/icarly.js"></script>
+</body>
+</html>

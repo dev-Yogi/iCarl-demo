@@ -1,0 +1,567 @@
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    margin: 0;
+    background-color: rgb(67, 67, 134);
+    max-width: 500px;
+    max-height: 600px;
+
+}
+
+header{
+    background-color: rgb(143, 211, 41);
+    border: 2px solid white;
+    height: 10em;
+    position: fixed;
+    top: 10%;
+    width: 90%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    z-index: 3;
+
+
+}
+.icarly-logo{
+    position: fixed;
+    z-index: 4;
+
+}
+.date-video{
+    display: flex;
+    position: relative;
+    margin-top: 1.8em;
+    left:1%;
+    top: 15%; 
+}
+
+.date-video p{
+    margin-right: 10em;
+    border-radius: 50%;
+}
+.login{
+    background-color: black;
+    color: white;
+    padding: .5em;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10%;
+    border: none;
+    margin-left: 3em;
+}
+.icon{
+    border: 2px solid white;
+    color:white;
+    padding: 2px;
+}
+
+.photo-two{
+   position: absolute;
+   right:10%;
+   top: 4.5vh;
+   z-index: 4;
+   height: 25vh;
+   width: 26vw;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.768);
+  
+}
+.icarly-logo div{
+    position: fixed;
+
+   z-index: 6;
+}
+nav{
+    display:flex;
+    width: 90%;
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2;
+    position: fixed;
+    margin-top: 2.5em;
+
+}
+nav a:last-child{
+    height: 2.5em;
+    line-height: 1;
+    font-size: 11pt;
+    border-top-right-radius: 15%;
+  
+}
+nav a:nth-last-child(2){
+    height: 2.2em;
+    line-height: 1;
+    font-size: 11pt;
+}
+nav a:first-child{
+    height: 2.5em;
+    border-top-left-radius: 15%;
+}
+nav a:nth-child(2){
+    height: 2.2em;
+}
+
+.nav-search{
+    font-family: 'Black Ops One', cursive;
+    color:white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 1.5em;
+
+}
+.tagline{
+    color:red;
+    position: absolute;
+    left: 2%;
+}
+
+p{
+    color:white;
+}
+a{
+    width: 100%;
+    color:white; 
+    background-color: rgb(167, 5, 167);
+    border: 2px double plum;
+    text-decoration: none;
+}
+/* main content */
+#content{
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    top:34.5%;
+    width:90%; 
+    height: 56vh;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-top: 3px double white;
+    border-right: 2.5px double white;
+    
+  
+}
+.icarly-vid{
+   position: relative;
+   left: 5%;
+   margin-top: 1.5em;
+   height: 215px;
+}
+.vid-content{
+    background: yellow;
+    width: 450px;
+    height: 275px;
+    margin-top: 1.5em;
+    border: 1px solid black;
+    left: 1%;
+    position: absolute;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    display: flex;
+    
+  
+}
+.vid-words{
+    background-color: rgb(235, 31, 31);
+    width: 30ch;
+    padding: 5px;
+    position: absolute;
+    z-index: 3;
+    left: 10%;
+    top: 0;
+}
+div .blue-side{
+    background-color: darkblue;
+    position: absolute;
+    width: 320px;
+    height: 189px;
+    margin-left: 28.3em;
+    box-shadow: 3px 1px 4px 5px;
+    margin-top: 2em;
+    
+ 
+}
+.blue-side img{
+    margin-top: 8px;
+    margin-left: 1.5em;
+    
+}
+#content .extra{
+    position: absolute;
+    margin-left: 25em;
+    margin-bottom: 5px;
+    font-size: 15pt;
+    color:black;
+    font-family: 'Black Ops One', cursive;
+ 
+}
+
+.extra>span{
+    color: rgb(135, 168, 85);
+}
+.blue-side div{
+
+    flex-direction: column;
+    float: right;
+    font-size: small;
+    width: 30ch;
+
+}
+
+
+.seperator{
+    width: 85%;
+    color: white;
+    
+}
+.vid-content .under-logo{
+    position: absolute;
+    margin-top: 15em;
+    margin-left: 10em;
+    background-color: yellow;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.content p:nth-last-of-type(2){
+    position: fixed;
+    z-index: 5;
+  
+}
+.seperator>a,
+.blue-side>a{
+    border: none;
+    background-color: transparent;
+}
+
+.blue-side .see-more{
+    background-color: red;
+    width: 20ch;
+    position: fixed;
+    margin-left: 8px;
+    color:white;
+    text-align: center;
+    font-weight: 800;
+    padding: .2em;
+    border-radius: 8%;
+    font-size: 11pt;   -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    border: 1px solid black;
+    margin-top: 1.5em;
+}
+.blue-side .upload{
+    background-color: red;
+    width: 20ch;
+    position: fixed;
+    margin-top: 1.5em;
+    margin-left: 12em;
+    color:white;
+    text-align: center;
+    font-weight: 800;
+    padding: .2em;
+    border-radius: 8%;
+    font-size: 11pt;   -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    border: 1px solid black;
+}
+.blue-side>div>p{
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.see-more>a,
+.upload>a{
+    background-color: red;
+    color:white;
+    border: none;
+}
+.vl {
+
+    border-left: 11px solid grey;
+    height: 210px;
+    position: absolute;
+    left: 100%;
+    margin-left: 70px;
+    top:  18%;
+    
+  }
+.vl img:first-child{
+    position: absolute;
+    right: 8em;
+    bottom: 4em;
+  
+}
+.vl img:nth-child(2){
+    position: relative;
+    right:12.4em;
+    bottom: 5.5em; 
+ 
+ 
+}
+.website-extras{
+    clear: both;
+    background-color: orange;
+    width: 90%;
+    height: 15vh;
+    position: fixed;
+    top: 82%; 
+    z-index: -1;
+    margin: auto;
+    border-top: 10px double rgb(235, 189, 105);
+    border-right: 2px double white;
+}
+.car-img{
+   width: 350px; 
+   position: absolute;
+   bottom: 4vh;
+   margin-left: 2em;
+   
+}
+
+#rating{
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    font-weight: 600;
+    width: 17.5%;
+    text-align: center;
+
+}
+
+.rating-stars{
+    padding-top: 5px;
+    background-color: #e4e2e2;
+    height: 10vh;
+    border-radius: 10px;
+    border:2px solid black;
+   
+
+}
+/*
+	Ratings Stars
+	(with as little code as possible)
+*/
+
+.rating-stars {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+   
+   
+  }
+  .rating-stars > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    padding-left: 5px;
+   left: 2.2em;
+  }
+  .rating-stars > span:hover,
+  .rating-stars > span:hover ~ span {
+    color: transparent;
+  }
+  .rating-stars > span:hover:before,
+  .rating-stars > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+     left: 0; 
+     color: red;
+  }
+  .slidecontainer {
+    width: 100%;
+    position: relative;
+    bottom: 25px;
+    
+  }
+
+
+#spencer-extra{
+
+  position: absolute;
+  right: 0;
+  bottom: 3.5%;
+}
+.click-here{
+    position: absolute;
+    font-size: smaller;
+    right: 75.5%;
+    top: 45%;
+    width: 8vw;
+    padding: 5px;
+    border-radius: 8px;
+    color:rgb(235, 31, 31);
+    font-weight: 600;
+    border: 1px solid white;
+    background-color: rgb(235, 235, 24);
+}
+.vote{
+position: absolute;
+right: 20%;
+bottom: 8vh;
+margin-right: 205px;
+
+
+}
+
+/*video upload page */
+#videoUpload{ 
+   position: relative;
+   bottom: 3%;
+   width: 100%;
+   text-align: center;
+
+  
+}
+#videoUpload>h1{
+    -webkit-text-stroke: .5px orange;
+    color:rgb(167, 5, 167);
+    font-size: 14pt;
+}
+
+/*
+div.rating-stars {
+    width: 270px;
+    display: inline-block;
+  }
+  
+  input.rating-stars { display: none; }
+  
+  label.rating-stars {
+    float: right;
+    padding: 10px;
+    font-size: 36px;
+    color: #444;
+    transition: all .2s;
+  }
+  
+  input.rating-stars:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+  }
+  
+  input.rating-stars:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input.rating-stars:checked ~ label.star:before { color: #F62; }
+  
+  label.rating-stars:hover { transform: rotate(-15deg) scale(1.3); }
+  
+  label.rating-stars:before {
+    content: '\f006';
+    font-family: FontAwesome;
+  }
+  */
+
+  /*LOGIN*/
+  /* Make the page use the entire screen */
+
+
+  
+  /* White rectangle in the middle of the screen */
+  
+  #main-holder {
+    position: fixed; 
+    top: 40%;
+    left: 30%;
+    width: 30%;
+    height: 50%;
+    display: grid;
+    font-size: larger;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(143, 211, 41);
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px red;
+    color:yellow;
+  
+  }
+  
+  /* -------------------------------------------------------------- */
+  
+  #login-header {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  /* -------------------------------------------------------------- */
+  
+  /* Middle row of the main grid (contains the error message) */
+  
+  #login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  /* Error message. By default it's transparent, but the opacity is controlled
+  by JavaScript */
+  
+  #login-error-msg {
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+    margin-bottom: 5px;
+  }
+  
+  #error-msg-second-line {
+    display: block;
+  }
+  
+  /* -------------------------------------------------------------- */
+  
+  /* Adjust the positioning of the login form inside the last row of the
+  main grid */
+  
+  #login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  /* Style the login form fields' placeholders */
+  
+  .login-form-field::placeholder {
+    color:rgb(167, 5, 167);
+  }
+  
+  /* Style the login form fields (username and password) */
+  
+  .login-form-field {
+    border: none;
+    border: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 2px 2px 5px 5px;
+  }
+  
+  /* Style the login button */
+  
+  #login-form-submit {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: plum;
+    cursor: pointer;
+    outline: none;
+  }
